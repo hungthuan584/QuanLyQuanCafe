@@ -204,7 +204,6 @@
             this.label2.Size = new System.Drawing.Size(48, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Đến:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dtpkToDay
             // 
@@ -223,7 +222,7 @@
             this.label1.Size = new System.Drawing.Size(38, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+
             // 
             // dtpkFromDay
             // 
@@ -355,7 +354,7 @@
             this.label5.Size = new System.Drawing.Size(85, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "Danh mục:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // panel7
             // 
@@ -460,7 +459,7 @@
             this.btnAddFood.TabIndex = 0;
             this.btnAddFood.Text = "Thêm";
             this.btnAddFood.UseVisualStyleBackColor = true;
-            this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
+            
             // 
             // panel2
             // 
@@ -836,7 +835,7 @@
             this.dtgvAccount.Name = "dtgvAccount";
             this.dtgvAccount.Size = new System.Drawing.Size(464, 443);
             this.dtgvAccount.TabIndex = 10;
-            this.dtgvAccount.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvAccount_CellContentClick);
+            
             // 
             // panel20
             // 

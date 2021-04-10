@@ -134,5 +134,7 @@ namespace QuanLyQuanCafe.DAO
             }
             return data;
         }
+
+        
     }
 }

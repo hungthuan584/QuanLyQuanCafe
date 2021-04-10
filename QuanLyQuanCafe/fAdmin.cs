@@ -16,52 +16,7 @@ namespace QuanLyQuanCafe
         public fAdmin()
         {
             InitializeComponent();
-            loadAccountList();
-            loadFoodList();
-        }
-
-        void loadAccountList()
-        {
-            string query = "SELECT * FROM Account";
-
-            dtgvAccount.DataSource = DataProvider.Instance.ExecuteQuery(query,new object[] {"staff_1"});
-        }
-
-        void loadFoodList()
-        {
-            string query = "SELECT * FROM FOOD";
-
-            dtgvFood.DataSource = DataProvider.Instance.ExecuteQuery(query);
-        }
-
-        private void dtpkToDay_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAddFood_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtgvAccount_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyQuanCafe.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,9 +18,10 @@ namespace QuanLyQuanCafe
             InitializeComponent();
         }
 
-        bool Login(string username, string password)
+        bool Login(string userName, string passWord)
         {
-            return false;
+
+            return AccountDAO.Instance.Login(userName,passWord);
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -42,6 +44,11 @@ namespace QuanLyQuanCafe
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
